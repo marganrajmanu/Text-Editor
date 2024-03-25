@@ -1,0 +1,13 @@
+{
+	"name": "Text Editor",
+	"description": "Simple Text Editor",
+	"version": "1.0.0",
+	"mainfest_version": 3,
+	"actions": {
+		"default_titile":"Text Editor",
+		"default_popup": "index.html",
+		"default_icon":{
+			"128": "favicon.ico"
+		}
+	}
+}
