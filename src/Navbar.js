@@ -9,7 +9,7 @@ function Navbar(props) {
                     <h4 className="navbar-brand" style={{ paddingTop: "0.5em", paddingLeft: "1em" }}>
                         Text Editor
                     </h4>
-                    <button
+                    {/* <button
                         className="navbar-toggler"
                         type="button"
                         data-bs-toggle="collapse"
@@ -19,7 +19,7 @@ function Navbar(props) {
                         aria-label="Toggle navigation"
                     >
                         <span className="navbar-toggler-icon" />
-                    </button>
+                    </button> */}
                     <div className={`mx-2 form-check form-switch text-${props.mode ? "light" : "dark"}`}>
                         <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" onClick={props.toggleMode} />
                         <label className="form-check-label" htmlFor="flexSwitchCheckDefault">{props.mode ? "Enable light mode" : "Enable dark mode"}</label>
